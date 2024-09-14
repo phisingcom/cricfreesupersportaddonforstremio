@@ -1,0 +1,24 @@
+{
+  "manifest_version": "1.0",
+  "id": "cricfreegrabber",
+  "name": "Supersport Grabber",
+  "description": "Pulls supersport streams from cricfree",
+  "icon": "no icon", // You can replace this with the path to your addon's icon
+  "resources": ["stream"], // Indicates that your addon provides streams
+  "types": ["movie", "series"], // Specifies the types of content your addon supports (e.g., movies, series)
+  "idPrefixes": ["ss"], // Optional: If your streams have specific identifiers (e.g., "ss" for Supersport), define them here
+  "catalogs": [
+    {
+      "type": "movie", // Can be "movie" or "series"
+      "id": "supersport",
+      "name": "Supersport Streams",
+      "description": "A collection of Supersport streams",
+      "genres": ["sports"], // Optional: Define genres for your catalog
+      "meta": {
+        "poster": "poster.jpg", // Path to a poster image for your catalog (optional)
+        "background": "background.jpg" // Path to a background image for your catalog (optional)
+      },
+      "catalog": "catalog.json" // Path to a JSON file containing your catalog data (optional)
+    }
+  ]
+}

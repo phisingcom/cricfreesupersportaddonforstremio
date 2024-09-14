@@ -1,0 +1,11 @@
+{
+  "name": "stremio-supersport-grabber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "stremio addon run"
+  },
+  "dependencies": {
+    "stremio-addon-sdk": "^4.10.0"
+  }
+}
